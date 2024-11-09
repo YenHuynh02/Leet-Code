@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {boolean}
  */
-const num = [121, 323, 145, , 909];
+const num = [121, 323, 145, 909];
 
 var isPalindrome = function(x) {
     var num = x.toString();
