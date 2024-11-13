@@ -3,29 +3,19 @@
  * @return {string}
  */
 var compressedString = function (word) {
-    var arr = word.split("");
-    var stacks = [];
-    var countA = 0, countB = 0, countC = 0, countD = 0, countE = 0;
-    for (var i = 0; i < arr.length; i++) {
-        switch (arr[i]) {
-            case 'a':
-                countA++;
-                stacks.push()
-                break;
-            case 'b':
-                countB++;
-                break;
-            case 'c':
-                countC++;
-                break;
-            case 'd':
-                countD++;
-                break;
-            case 'e':
-                countE++;
-                break;
+    var comp = "";
+    var i = 0;
+
+    while (i < word.length) {
+        let char = word[i];
+        var count = 0;
+        while (i < word.length && word[i] === char && count < 9) {
+            count++;
+            i++;
         }
+        comp += count + char;
     }
+    return comp;
 }
-var word = 'abcde';
-compressedString(word);
+var word = 'aaaaaaaaaaaaabcde';
+console.log(compressedString(word));
