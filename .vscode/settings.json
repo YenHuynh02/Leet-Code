@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "iosfwd": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "C:/Users/yenhu/OneDrive/Algonquin College/Leet code/1480. Running Sum of 1d Array"
 }
