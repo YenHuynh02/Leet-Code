@@ -1,3 +1,0 @@
-C:/Users/yenhu/OneDrive/Algonquin College/Leet code/SumOf1dArr/out/build/x64-debug/CMakeFiles/SumOf1dArr.dir
-C:/Users/yenhu/OneDrive/Algonquin College/Leet code/SumOf1dArr/out/build/x64-debug/CMakeFiles/edit_cache.dir
-C:/Users/yenhu/OneDrive/Algonquin College/Leet code/SumOf1dArr/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
